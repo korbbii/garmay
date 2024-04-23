@@ -1,0 +1,234 @@
+/* Your existing CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 150%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.welcome {
+    background-color: #333;
+    color: #fff;
+    padding: 27px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 30px 30px; /* Adjusted spacing */
+    border-bottom: 1px solid #666;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove text decoration */
+    display: block;
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Increase font size */
+}
+
+.sidebar ul li:hover {
+    background-color: #ffffff; /* Change background color on hover */
+}
+
+.sidebar ul li a:hover {
+    background-color: #fff; /* Hover item background color */
+    color: #000; /* Hover item text color */
+}
+
+.sidebar ul li:hover a {
+    color: black; /* Change text color on hover */
+}
+
+.table-container {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 850px; /* Specify width */
+}
+
+table {
+    margin-top: 50px;
+    margin-left: 80px;
+    border-collapse: collapse;
+    width: 100%; /* Make table width 100% */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    padding-left: 40px;  
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.edit-button,
+.delete-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+    margin-bottom: 20px;
+}
+
+.popup-content input[type="text"],
+.popup-content input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.popup-content input[type="text"]:focus,
+.popup-content input[type="password"]:focus {
+    border-color: #2d43d6;
+}
+
+.popup-content button {
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}   
+
+.popup-content button.save-button {
+    background-color: #4CAF50;
+    text-align: center;
+    color: white;
+    margin-left: 20px; 
+}
+
+.popup-content button.cancel-button {
+    background-color: #f44336;
+    text-align: center;
+    color: white;
+    margin-right: 20px; /* Remove margin-left */
+    margin-top: 8px; /* Add margin-top */
+}
+
+.popup-content button.save-button:hover,
+.popup-content button.cancel-button:hover {
+    opacity: 0.8;
+}
+
+.new-user-checkbox {
+    display: none;
+}
+
+.new-user-label {
+    background-color: #373668;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.new-user-label:hover {
+    background-color: #2d43d6;
+}
+
+.new-user-checkbox:checked + .popup {
+    display: block;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    margin-left: 20px;
+}
+
+.cancel-button:hover {
+    background-color: #da190b;
+}
+
+#cancelButton:focus {
+    display: none;
+}

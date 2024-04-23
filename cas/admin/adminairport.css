@@ -1,0 +1,323 @@
+/* Your existing CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 150%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.welcome {
+    background-color: #333;
+    color: #fff;
+    padding: 27px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 30px 30px; /* Adjusted spacing */
+    border-bottom: 1px solid #666;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove text decoration */
+    display: block;
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Increase font size */
+}
+
+.sidebar ul li:hover {
+    background-color: #ffffff; /* Change background color on hover */
+}
+
+.sidebar ul li a:hover {
+    background-color: #fff; /* Hover item background color */
+    color: #000; /* Hover item text color */
+}
+
+.sidebar ul li:hover a {
+    color: black; /* Change text color on hover */
+}
+
+#airportForm {
+    float: right; /* Float the form to the right */
+    margin-top: 20px;
+    margin-right: -20px; /* Add a margin to the right */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}/* Your existing CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 150%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.welcome {
+    background-color: #333;
+    color: #fff;
+    padding: 27px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 30px 30px; /* Adjusted spacing */
+    border-bottom: 1px solid #666;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove text decoration */
+    display: block;
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Increase font size */
+}
+
+.sidebar ul li:hover {
+    background-color: #ffffff; /* Change background color on hover */
+}
+
+.sidebar ul li a:hover {
+    background-color: #fff; /* Hover item background color */
+    color: #000; /* Hover item text color */
+}
+
+.sidebar ul li:hover a {
+    color: black; /* Change text color on hover */
+}
+
+#airportForm {
+    float: right; /* Float the form to the right */
+    margin-top: 30px;
+    margin-right: -150px; /* Add a margin to the right */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-right: 60rem; /* Adjusted margin to accommodate the form */
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 10px;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+button:hover {
+    opacity: 1;
+    color:black;
+}
+
+.table-container {
+    float: right;
+    margin-right: 5.5rem;
+    margin-top: -350px; /* Adjust as needed */
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px; /* Adjusted width */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 20px; /* Adjusted padding */
+    text-align: center;
+    font-size: 16px; /* Adjusted font size */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.edit-button,
+.delete-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+
+.content {
+    margin-right: 50rem; /* Adjusted margin to accommodate the form */
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 10px;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    margin-left: 20px;
+}
+
+button:hover {
+    opacity: 1;
+    color:black;
+}
+
+.table-container {
+    float: right;
+    margin-right: 5.5rem;
+    margin-top: -350px; /* Adjust as needed */
+}
+
+table {
+    border-collapse: collapse;
+    width: 650px; /* Adjusted width */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px; /* Adjusted padding */
+    text-align: center;
+    font-size: 16px; /* Adjusted font size */
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+.edit-button,
+.delete-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,64 @@
+/* Basic styling for demonstration purposes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 150%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.welcome {
+    background-color: #333;
+    color: #fff;
+    padding: 27px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 30px 30px; /* Adjusted spacing */
+    border-bottom: 1px solid #666;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove text decoration */
+    display: block;
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Increase font size */
+}
+
+.sidebar ul li:hover {
+    background-color: #ffffff; /* Change background color on hover */
+}
+
+.sidebar ul li a:hover {
+    background-color: #fff; /* Hover item background color */
+    color: #000; /* Hover item text color */
+}
+
+.sidebar ul li:hover a {
+    color: black; /* Change text color on hover */
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+  
